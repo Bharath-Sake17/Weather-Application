@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url("./images/background.jpg"); /* your bg image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main container */
+.card {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* search box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 12px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+/* cards container */
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* row layout */
+.card > div:not(.search-box) {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* images */
+.card img {
+  width: 60px;
+  margin: 10px 0;
+}
+
+/* text */
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}

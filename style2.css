@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("./images/pexels-fotios-photos-1107717.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+ 
+
+ 
+}
+/* .search-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 15px;
+    margin-bottom: 200px;
+}
+.search-box input{
+  width: 20%;
+  padding: 12px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  font: bolder;
+
+}
+
+
+.search-box button{
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  min-height: 10%;
+
+} */
+ .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+
+/* input */
+.search-box input {
+  width: 350px;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  text-align: center;
+}
+
+/* button */
+.search-btn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 45%;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-btn:hover{
+  cursor: pointer;
+}
+
+/* image inside button */
+.search-btn img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+.city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+    margin-top: 140px;
+    margin-bottom: 5px;
+    color: rgb(15, 15, 14);
+  
+}
+.citycard{
+  width: 350px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  /* //font-weight: bold; */
+  font-size: larger;
+  color: black;
+  text-align: center;
+  background-color: rgba(255, 231, 200, 0.573);;
+}
+.citycard:hover{
+
+  cursor: pointer;
+
+}
+
+
+.card h2{
+    border-top: 20px;
+}
+.card{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+}
+.card1{
+  padding: 15px;
+  background-color: rgba(255, 231, 200, 0.573);
+  width: 250px;
+  border-radius: 20px;
+  gap: 15px;
+  cursor: pointer;
+
+}
+.card1 img{
+  width: 100%;
+  height: 230px;
+  border-radius: 20px;
+  object-fit: cover;
+
+}
+.card2{
+  padding: 15px;
+  background-color: rgba(255, 231, 200, 0.573);
+  width: 250px;
+  border-radius: 20px;
+  gap: 15px;
+  cursor: pointer;
+
+}
+.card2 img{
+  width: 100%;
+  height: 230px;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+
+.card3{
+  padding: 15px;
+  background-color: rgba(255, 231, 200, 0.573);
+  width: 250px;
+  border-radius: 20px;
+  gap: 15px;
+  cursor: pointer;
+
+}
+.card3 img{
+  width: 100%;
+  height: 230px;
+  border-radius: 20px;
+  object-fit: cover;
+
+}
+.card4{
+  padding: 20px;
+  background-color: rgba(255, 231, 200, 0.573);
+  width: 250px;
+  border-radius: 20px;
+  gap: 15px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center ;
+
+}
+.level{
+  margin-top: 40px;
+}
+.sealev{
+  margin-top: 10px;
+}
+.pre{
+  margin-top: 40px;
+}
+.feelslike 
+{
+  margin-top: 10px;
+}
+
+/* common card hover effect */
+.card1,
+.card2,
+.card3,
+.card4,
+.citycard {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* hover animation */
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.citycard:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+.card1 img,
+.card2 img,
+.card3 img {
+  transition: transform 0.4s ease;
+}
+
+.card1:hover img,
+.card2:hover img,
+.card3:hover img {
+  transform: scale(1.08);
+}
+
+
