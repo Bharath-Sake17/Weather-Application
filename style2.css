@@ -110,7 +110,7 @@ body {
   font-size: larger;
   color: black;
   text-align: center;
-  background-color: rgba(255, 231, 200, 0.573);;
+  background-color: rgba(171, 227, 222, 0.564);
 }
 .citycard:hover{
 
@@ -133,7 +133,7 @@ body {
 }
 .card1{
   padding: 15px;
-  background-color: rgba(255, 231, 200, 0.573);
+  background-color: rgba(171, 227, 222, 0.564);
   width: 250px;
   border-radius: 20px;
   gap: 15px;
@@ -149,7 +149,7 @@ body {
 }
 .card2{
   padding: 15px;
-  background-color: rgba(255, 231, 200, 0.573);
+  background-color: rgba(171, 227, 222, 0.564);
   width: 250px;
   border-radius: 20px;
   gap: 15px;
@@ -166,7 +166,7 @@ body {
 
 .card3{
   padding: 15px;
-  background-color: rgba(255, 231, 200, 0.573);
+  background-color: rgba(171, 227, 222, 0.564);
   width: 250px;
   border-radius: 20px;
   gap: 15px;
@@ -182,7 +182,8 @@ body {
 }
 .card4{
   padding: 20px;
-  background-color: rgba(255, 231, 200, 0.573);
+  background-color:rgba(171, 227, 222, 0.564);
+   /* background-color: (255, 231, 200, 0.573); */
   width: 250px;
   border-radius: 20px;
   gap: 15px;
